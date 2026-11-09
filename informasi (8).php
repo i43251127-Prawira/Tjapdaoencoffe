@@ -1,0 +1,12 @@
+<?php $page_title='Coffee Information'; require 'includes/header.php'; ?>
+<section class="inner-hero info-hero"><div class="inner-hero-bg"></div><div class="inner-hero-content reveal"><div class="section-tag light-tag">02 / COFFEE INFORMATION</div><h1>Know your<br><em>coffee.</em></h1><p>Informasi singkat tentang karakter dan jenis kopi TJAP DAOEN sebelum kamu memilih varian.</p></div></section>
+<section class="section info-page">
+  <div class="center-head"><div class="section-tag">COFFEE BASICS</div><h2>Two beans,<br><em>different character.</em></h2><p>Gunakan panduan ini untuk memahami perbedaan dasar Arabica dan Robusta.</p></div>
+  <div class="bean-compare">
+    <article class="bean-panel arabica-panel"><div class="bean-photo"><img src="assets/img/blue-mountain.jpg?v=20261013d" alt="Arabica TJAP DAOEN"></div><div class="bean-content"><span>01 · ARABICA</span><h3>Fruity.<br><em>Aromatic.</em></h3><p>Berdasarkan temuan wawancara, Arabica TJAP DAOEN memiliki karakter fruity dan cocok dicampur susu.</p><div class="fact-row"><b>Varian</b><span>Original · Blue Mountain · Wine · lainnya</span></div><div class="fact-row"><b>Harga</b><span>500 gr · Rp85.000–Rp125.000</span></div></div></article>
+    <article class="bean-panel robusta-panel"><div class="bean-photo"><img src="assets/img/robusta.jpg?v=20261013d" alt="Robusta TJAP DAOEN"></div><div class="bean-content"><span>02 · ROBUSTA</span><h3>Bold.<br><em>Strong.</em></h3><p>Robusta memiliki rasa pahit dan cita rasa yang kuat dengan karakter yang lebih tegas.</p><div class="fact-row"><b>Varian</b><span>Robusta</span></div><div class="fact-row"><b>Harga</b><span>500 gr · Rp75.000</span></div></div></article>
+  </div>
+  <p class="source-note">*Kisaran harga mengikuti catatan wawancara pada studi UI/UX dan masih perlu dikonfirmasi.</p>
+</section>
+<section class="section taste-map"><div class="section-head-row"><div><div class="section-tag">QUICK GUIDE</div><h2>Choose by <em>character.</em></h2></div></div><div class="taste-list"><div><span>01</span><b>Fruity & Aromatic</b><p>Pilih Arabica bila kamu ingin eksplorasi rasa yang lebih ringan dan kompleks.</p><a href="produk.php?kategori=Arabica">SEE ARABICA ↗</a></div><div><span>02</span><b>Bold & Strong</b><p>Pilih Robusta bila kamu suka rasa kopi yang pahit, kuat, dan lebih tebal.</p><a href="produk.php?kategori=Robusta">SEE ROBUSTA ↗</a></div></div></section>
+<?php require 'includes/footer.php'; ?>

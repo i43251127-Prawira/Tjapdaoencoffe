@@ -1,0 +1,14 @@
+<?php $page_title='Coffee Discovery'; require 'includes/header.php'; ?>
+<section class="inner-hero discovery-hero"><div class="inner-hero-bg"></div><div class="inner-hero-content reveal"><div class="section-tag light-tag">04 / COFFEE DISCOVERY</div><h1>Find your<br><em>coffee.</em></h1><p>Mulai dari karakter rasa yang kamu suka, lalu temukan rekomendasi varian TJAP DAOEN.</p></div></section>
+<section class="section quiz-page">
+ <div class="quiz-layout"><div class="quiz-side"><div class="section-tag">COFFEE QUIZ</div><h2>Which cup<br><em>fits you?</em></h2><p>Jawab 3 pertanyaan. Tidak ada jawaban salah — ini hanya cara sederhana untuk mengenali preferensi rasa kamu.</p><div class="quiz-note">DIGITAL COFFEE EXPERIENCE · 01—03</div></div>
+ <div class="quiz-box" id="coffeeQuiz">
+   <div class="quiz-progress"><span id="quizProgress">01 / 03</span><div><i id="progressBar"></i></div></div>
+   <div class="quiz-question active" data-q="1"><small>QUESTION 01</small><h3>Kamu lebih suka rasa kopi yang...</h3><button data-score="arabica">Fruity & aromatic</button><button data-score="robusta">Bold & strong</button><button data-score="smooth">Smooth & balanced</button></div>
+   <div class="quiz-question" data-q="2"><small>QUESTION 02</small><h3>Kalau minum kopi, kamu mencari...</h3><button data-score="arabica">Aroma yang kompleks</button><button data-score="robusta">Cita rasa yang tegas</button><button data-score="smooth">Teman santai yang easy</button></div>
+   <div class="quiz-question" data-q="3"><small>QUESTION 03</small><h3>Kamu paling tertarik mencoba...</h3><button data-score="arabica">Blue Mountain / Wine</button><button data-score="robusta">Robusta</button><button data-score="smooth">Original</button></div>
+   <div class="quiz-result" id="quizResult"><small>YOUR MATCH</small><h3 id="resultTitle">Arabica</h3><p id="resultText"></p><a id="resultLink" class="btn btn-dark" href="produk.php?kategori=Arabica">EXPLORE RECOMMENDATION <span>↗</span></a><button class="quiz-reset" id="quizReset" type="button">Retake quiz</button></div>
+ </div></div>
+</section>
+<section class="section virtual-shop"><div class="center-head"><div class="section-tag">VIRTUAL COFFEE SHOP</div><h2>Explore like you're<br><em>at the café.</em></h2><p>Ide virtual coffee shop dari proses ideasi: katalog produk dan informasi café disatukan dalam pengalaman digital.</p></div><div class="shop-stage"><div class="shop-photo"><img src="assets/img/hero.jpg?v=20261013d" alt="TJAP DAOEN café"></div><div class="shop-panel"><span>WELCOME TO TJAP DAOEN</span><h3>Pick a table.<br>Pick a coffee.</h3><p>Mulai dari varian kopi, kenali karakternya, lalu hubungi kami untuk melakukan pemesanan.</p><div class="shop-links"><a href="produk.php">Browse coffee <b>↗</b></a><a href="tentang.php#cafe">About the café <b>↗</b></a><a href="kontak.php">Order now <b>↗</b></a></div></div></div></section>
+<?php require 'includes/footer.php'; ?>
